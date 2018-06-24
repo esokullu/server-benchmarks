@@ -20,3 +20,10 @@ sokullu:ports groups$ python ip_client.py
 Receiving messages...
 Received 6085 messages in 1 second(s).
 ```
+
+With PHP - realtime - no libevent
+```
+sokullu:ports groups$ python ip_client.py 
+Receiving messages...
+Received 5656 messages in 1 second(s).
+```
