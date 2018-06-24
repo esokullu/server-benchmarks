@@ -13,3 +13,10 @@ sokullu:ports groups$ python single.py
 Receiving messages...
 Received 3475808 messages in 1 second(s).
 ```
+
+With PHP:
+```
+sokullu:ports groups$ python ip_client.py 
+Receiving messages...
+Received 6085 messages in 1 second(s).
+```
