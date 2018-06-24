@@ -10,6 +10,7 @@ $socket = new React\Socket\Server("$address:$port", $loop);
 
 $socket->on('connection', function (ConnectionInterface $conn) {
     $conn->write("Hello there!\n");
+    $conn->close();
 });
 
 echo 'Server ready.';
